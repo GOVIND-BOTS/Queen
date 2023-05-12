@@ -8,8 +8,8 @@ class Config(object):
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", True)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "ICC_ToXiC_MuSiC_BoT")
-    SUPPORT = os.environ.get("SUPPORT", "TheSupportChat", "https://t.me/indian_chatting_club_offical") # Your Support
-    CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel", "https://t.me/tha_govind_op") # Your Channel
+    SUPPORT = os.environ.get("SUPPORT", "TheSupportChat", "indian_chatting_club_offical") # Your Support
+    CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel", "ha_govind_op") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5870880892")) # telegram I'd not Username
